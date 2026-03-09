@@ -19,40 +19,51 @@ The decode and encode button are used to print the output whether encoding or de
 This web app uses the library package, react-copy-to-clipboard (https://www.npmjs.com/package/react-copy-to-clipboard)
 
 To download this component:
+
 `npm install react-copy-to-clipboard`
 
 ## Local Setup
 
 Clone the following gitHub repository: 
+
 `git clone https://github.com/adhizlan/Morse-Code-Decoder.git`
 
 Locate:
+
 `cd Morse_Code_Decoder`
 
 Install Dependencies if necessary:
+
 `npm install`
 
 ## Run Locally
 
-Run locally at http://localhost:3000
+Run locally at http://localhost:3000:
+
 `npm start`
 
 ## Deploy to Firebase
 
 Install Firebase Command Line Interface (CLI):
+
 `npm install -g firebase-tools`
 
 Login to firebase:
+
 `firebase login`
 
 Initialize firebase in project:
+
 `firebase init`
 
 Build App:
+
 `npm run build`
 
 Deploy App:
+
 `firebase deploy`
+
 Use the given url to visit site.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------
