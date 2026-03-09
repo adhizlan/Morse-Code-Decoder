@@ -38,9 +38,9 @@ Install Dependencies if necessary:
 
 ## Run Locally
 
-Run locally at http://localhost:3000:
-
 `npm start`
+
+Runs locally at http://localhost:3000
 
 ## Deploy to Firebase
 
