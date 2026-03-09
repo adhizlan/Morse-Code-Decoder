@@ -46,7 +46,7 @@ Runs locally at http://localhost:3000
 
 Install Firebase Command Line Interface (CLI) if necessary:
 
-`npm install -g firebase-tools`
+`npm install -g firebase-tools` (https://firebase.google.com/docs/cli#windows)
 
 Login to firebase:
 
