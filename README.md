@@ -54,7 +54,7 @@ Login to firebase:
 
 Initialize firebase in project:
 
-`firebase init`
+`firebase init hosting`
 
 Build App:
 
@@ -62,7 +62,7 @@ Build App:
 
 Deploy App:
 
-`firebase deploy`
+`firebase deploy --only hosting`
 
 Use the given url to visit site.
 
