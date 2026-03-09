@@ -44,7 +44,7 @@ Runs locally at http://localhost:3000
 
 ## Deploy to Firebase
 
-Install Firebase Command Line Interface (CLI):
+Install Firebase Command Line Interface (CLI) if necessary:
 
 `npm install -g firebase-tools`
 
