@@ -1,3 +1,59 @@
+# React Morse Code Encoder/Decoder Web App
+
+This project was designed to serve as a single page react web app with the capability to decode morse code into text. Additionally, this app features an encode feature which allows users to input text and encode to morse code. 
+
+## Description
+
+The web app features an input textarea box, as well as buttons to decode, encode, clear, and copy input. The app supports input in the form of text or morse code. Only "-" or "." characters are to be used for morse code input with one space in between each morse letter and three spaces in between each morse word. Regular text can be input normally. 
+
+Ex. 1: .... --- .--   .- .-. .   -.-- --- ..- ..--.. => HOW ARE YOU?
+Ex. 2: How are you? => .... --- .--   .- .-. .   -.-- --- ..- ..--..
+
+The decode and encode button are used to print the output whether encoding or decoding, respectively. The clear button clears both input and output textarea boxes. The copy button copies the ouput to your clipboard using the react CopyToClipboard component from react-copy-to-clipboard. Additionally, it performs input validation with helpful error messages when wrong characters are used in decoding. Continuing to type in input textarea or pressing the clear button will clear the error message.
+
+## Libraries
+
+This web app uses the library package, react-copy-to-clipboard (https://www.npmjs.com/package/react-copy-to-clipboard)
+
+To download this component:
+`npm install react-copy-to-clipboard`
+
+## Local Setup
+
+Clone the following gitHub repository: 
+`git clone https://github.com/adhizlan/Morse-Code-Decoder.git`
+
+Locate:
+`cd Morse_Code_Decoder`
+
+Install Dependencies if necessary:
+`npm install`
+
+## Run Locally
+
+Run locally at http://localhost:3000
+`npm start`
+
+## Deploy to Firebase
+
+Install Firebase Command Line Interface (CLI):
+`npm install -g firebase-tools`
+
+Login to firebase:
+`firebase login`
+
+Initialize firebase in project:
+`firebase init`
+
+Build App:
+`npm run build`
+
+Deploy App:
+`firebase deploy`
+Use the given url to visit site.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
