@@ -6,8 +6,11 @@ This project was designed to serve as a single page react web app with the capab
 
 The web app features an input textarea box, as well as buttons to decode, encode, clear, and copy input. The app supports input in the form of text or morse code. Only "-" or "." characters are to be used for morse code input with one space in between each morse letter and three spaces in between each morse word. Regular text can be input normally. 
 
-Ex. 1: .... --- .--   .- .-. .   -.-- --- ..- ..--.. => HOW ARE YOU?
-Ex. 2: How are you? => .... --- .--   .- .-. .   -.-- --- ..- ..--..
+
+Ex. 1: .... --- .--   .- .-. .   -.-- --- ..- ..--..    =>    HOW ARE YOU?
+
+Ex. 2: How are you?    =>    .... --- .--   .- .-. .   -.-- --- ..- ..--..
+
 
 The decode and encode button are used to print the output whether encoding or decoding, respectively. The clear button clears both input and output textarea boxes. The copy button copies the ouput to your clipboard using the react CopyToClipboard component from react-copy-to-clipboard. Additionally, it performs input validation with helpful error messages when wrong characters are used in decoding. Continuing to type in input textarea or pressing the clear button will clear the error message.
 
