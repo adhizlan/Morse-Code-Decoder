@@ -46,7 +46,7 @@ function App() {
     .split('   ')
     .map(word => word
       .split(' ')
-      .map(symbol => m_map[symbol] || '')
+      .map(symbol => m_map[symbol] || '?')
       .join('')
     )
     .join(' ')
@@ -63,7 +63,7 @@ function App() {
     
       .map(word => word
       .split('')
-      .map(symbol => Text_Morse[symbol] || '')
+      .map(symbol => Text_Morse[symbol] || '?')
       .join(' ')
     )
     .join('   ')
